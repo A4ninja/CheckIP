@@ -13,11 +13,11 @@ function CheckIP(InputIP) {
 		ErrorString = ErrorString + CheckStart + ClearIP +" некорректно введен, удалите лишние пробелы";
 		event.preventDefault();	
 	}
-	if (inputIP == "0.0.0.0") {
+	if (InputIP == "0.0.0.0") {
 		ErrorString = ErrorString + CheckStart + ClearIP +" специальный IP адрес и не может быть использован";
 		event.preventDefault();	
 	}
-	if (inputIP == "255.255.255.255") {
+	if (InputIP == "255.255.255.255") {
 		ErrorString = ErrorString + CheckStart + ClearIP +" специальный IP адрес и не может быть использован"
 		event.preventDefault();	
 	}
